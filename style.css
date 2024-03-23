@@ -8,6 +8,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+
+
+
+
+
 .max-width {
   /* max-width: 1300px; */
   padding: 0 80px;
@@ -22,18 +27,21 @@
 
 /* Navigation Bar */
 header {
-  background: url(images/xbg_2.jpg.pagespeed.ic.jJeCID6w60.webp) no-repeat;
+  background: url(images/pexels-luis-rodrigues-1687575.jpg) no-repeat;
   background-size: cover;
+  background-position: left;
   background-attachment: fixed;
   min-height: 100vh;
 }
+
 .nav-bar {
   width: 100%;
+  padding: 20px 0;
 }
 
 .nav-bar .logo-container {
   background: rgb(59, 59, 59);
-  padding: 30px;
+  padding: 15px 30px;
 }
 
 .nav-bar .logo-container a {
@@ -184,6 +192,7 @@ header {
 .services .right .box a:hover {
   color: #000;
 }
+
 /* About Content */
 .about {
   /* padding: 100px 80px;*/
@@ -207,7 +216,8 @@ header {
 
 .about .left .box {
   padding-right: 20px;
-  flex-grow: 1; /* Tostretch the image / Fit to the container */
+  flex-grow: 1;
+  /* Tostretch the image / Fit to the container */
 }
 
 .about .left img {
@@ -262,12 +272,15 @@ header {
   opacity: 0.9;
   background: #99999910;
 }
+
 .best-place-destination .max-width {
   padding: 100px 80px;
 }
+
 .best-place-destination .section-content {
   display: block;
 }
+
 .best-place-destination .section-content h2 {
   font-size: 40px;
   font-weight: 600;
@@ -275,6 +288,7 @@ header {
   text-align: center;
   margin-bottom: 3rem;
 }
+
 .best-place-destination .best-place-content {
   display: flex;
   column-gap: 30px;
@@ -305,12 +319,10 @@ header {
   height: 320px;
   object-fit: cover;
   border-radius: 5px;
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
 }
 
-.best-place-destination .best-place-content .images:hover {
-  transform: scale(1.05);
-}
+
 
 .best-place-destination .best-place-content .text {
   position: relative;
@@ -379,12 +391,12 @@ header {
   width: 100%;
   height: 270px;
   object-fit: cover;
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out; */
 }
 
-.tour-destination .box .tour-image:hover {
+/* .tour-destination .box .tour-image:hover {
   transform: scale(1.01);
-}
+} */
 
 .tour-destination .box .tour-rate-content {
   display: flex;
@@ -403,6 +415,12 @@ header {
   background: #f9ab30;
   padding: 8px;
   border-radius: 40px;
+  transition: all .3s ease-in-out;
+
+}
+
+.tour-destination .destination-content .box:hover .tour-rate {
+  transform: scale(1.1);
 }
 
 .tour-destination .box .text {
@@ -522,8 +540,7 @@ header {
   color: #cccccc;
 }
 
-.recent-post {
-}
+.recent-post {}
 
 .recent-post .max-width {
   padding: 100px 80px;
@@ -540,6 +557,7 @@ header {
   text-align: center;
   margin-bottom: 3rem;
 }
+
 .recent-post .post-content {
   display: flex;
   justify-content: space-between;
@@ -559,22 +577,19 @@ header {
 }
 
 .recent-post .post-content .box .one {
-  background: url(images/ximage_1.jpg.pagespeed.ic.QnA6DpkzOF.webp) no-repeat
-    center;
+  background: url(images/ximage_1.jpg.pagespeed.ic.QnA6DpkzOF.webp) no-repeat center;
   object-fit: cover;
   background-size: cover;
 }
 
 .recent-post .post-content .box .two {
-  background: url(images/ximage_2.jpg.pagespeed.ic.FWMjlnCNLs.webp) no-repeat
-    center;
+  background: url(images/ximage_2.jpg.pagespeed.ic.FWMjlnCNLs.webp) no-repeat center;
   object-fit: cover;
   background-size: cover;
 }
 
 .recent-post .post-content .box .three {
-  background: url(images/ximage_3.jpg.pagespeed.ic.7IAJXQIWQY.webp) no-repeat
-    center;
+  background: url(images/ximage_3.jpg.pagespeed.ic.7IAJXQIWQY.webp) no-repeat center;
   object-fit: cover;
   background-size: cover;
 }
@@ -625,11 +640,13 @@ header {
   margin: 1rem 0;
   padding: 0 15px;
 }
+
 footer {
   background: url(images/footer-bg.jpg.webp) no-repeat;
   background-position: bottom center;
   background-size: cover;
 }
+
 footer .max-width {
   padding: 100px 80px;
 }
@@ -665,7 +682,7 @@ footer .section-content .box h3 {
   font-weight: 600;
 }
 
-footer .section-content .col-1 p{
+footer .section-content .col-1 p {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
