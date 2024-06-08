@@ -1,1 +1,1 @@
-This project was inspired from this website https://colorlib.com/wp/template/vacation/
+This project was inspired/cloned from this website https://colorlib.com/wp/template/vacation/.
